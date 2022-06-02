@@ -1,0 +1,103 @@
+* {
+    font-family: 'Lato';
+}
+
+.header {
+    width: 1370px;
+    margin: 0 auto;
+}
+
+.header .logo {
+    background-image: url(/img/logo.png);
+    width: 81px;
+    height: 24px;
+    float: left;
+    margin: 30px 100px auto 0;
+}
+
+.header .menu ul {
+    width: 850px;
+    margin: 30px auto;
+}
+
+.header .menu ul li {
+    display: inline-block;
+    padding: 0 36px;
+}
+
+
+.header .menu ul li a,
+.header .auth a {
+    line-height: 24px;
+    font-size: 20px;
+    color: #292929;
+    font-weight: 500;
+}
+
+.header .auth,
+.header .trail {
+    line-height: 24px;
+    font-size: 20px;
+    color: #292929;
+    font-weight: 500;
+    margin: 30px 13px;
+}
+
+.header .auth,
+.header .trail,
+.header .menu {
+    float: left;
+}
+
+.header .trail button,
+.banner .content button {
+    color: #FFFFFF;
+    background: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px 50px;
+    margin: -10px 0;
+}
+
+.header .trail button:hover,
+.banner .content button:hover {
+    background: #00c78f;
+}
+
+.header .trail button:active,
+.banner .content button:active {
+    background: #00684a;
+}
+
+.banner {
+    clear: both;
+    background-image: url(/img/banner.jpg);
+    width: 1727px;
+    height: 895px;
+    margin: auto;
+    border-top: 1px solid #D6D6D6;
+}
+
+.banner .content h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 74px;
+    color: #01996D;
+}
+
+.banner .content {
+    color: #484848;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    margin: 175px 0px 30px 175px;
+}
+
+.banner .content button {
+    margin-top: 60px;
+}
